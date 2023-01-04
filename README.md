@@ -33,11 +33,11 @@ Type: field_matches, script, employee_totals, overlap, apply_rest
 
 params
 
-for field_matches          [{ field: ,  data: , type: }]
-for script                       scriptname 
-for employee_totals     {employeePropertyName: , employeePropertyMatch: , total:  ,   type:}
-for overlap                    rule_names :  [ rules that it should match] 
-for apply_rest               api_url:  ,  api_post: , api_column_fetch:  , type: , data:    – make a              deputy_rest call to url, post is a object here. It will get stringified and then __Field Names__ will be searched and replaced
+for field_matches:          [{ field: ,  data: , type: }]
+for script:                       scriptname 
+for employee_totals:     {employeePropertyName: , employeePropertyMatch: , total:  ,   type:}
+for overlap:                    rule_names :  [ rules that it should match] 
+for apply_rest:               api_url:  ,  api_post: , api_column_fetch:  , type: , data:    – make a              deputy_rest call to url, post is a object here. It will get stringified and then __Field Names__ will be searched and replaced
 
 
 
